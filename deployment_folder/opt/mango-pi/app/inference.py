@@ -1,6 +1,7 @@
 # =========================================================
 # app/inference.py
 # FINAL – TFLite EfficientNetV2 + SVM (TRAINING MATCHED)
+# Ready for Deployment
 # =========================================================
 
 import os
