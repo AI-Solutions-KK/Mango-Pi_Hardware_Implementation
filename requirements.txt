@@ -1,0 +1,46 @@
+# =========================================================
+# FIXED requirements.txt - NumPy Compatibility
+# =========================================================
+
+# Core ML/DL
+tensorflow==2.20.0
+numpy==1.26.4          # ✅ Compatible with TF 2.20 (fixes numpy._core error)
+scikit-learn==1.3.2
+pandas==2.1.4
+
+# Image Processing
+Pillow==10.1.0
+opencv-python==4.8.1.78
+
+# Flask Web Framework
+Flask==3.0.0
+Werkzeug==3.0.1
+
+# Audio (for voice output)
+pyttsx3==2.90
+
+# Utils
+tqdm==4.66.1
+
+# Optional (if using TF-Hub models)
+tensorflow-hub==0.15.0
+
+# =========================================================
+# INSTALLATION NOTES:
+# =========================================================
+# 1. Create fresh virtual environment:
+#    python -m venv venv
+#    venv\Scripts\activate  (Windows)
+#    source venv/bin/activate  (Linux/Mac)
+#
+# 2. Install requirements:
+#    pip install -r requirements.txt
+#
+# 3. If you get "numpy._core" error still:
+#    pip uninstall numpy -y
+#    pip install numpy==1.26.4 --force-reinstall
+#
+# 4. Verify installation:
+#    python -c "import numpy; print(numpy.__version__)"
+#    python -c "import tensorflow; print(tensorflow.__version__)"
+# =========================================================

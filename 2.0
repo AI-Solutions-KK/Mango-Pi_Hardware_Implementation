@@ -1,0 +1,12 @@
+Requirement already satisfied: opencv-python==4.8.1.78 in d:\data_science\my_projects\origin\git_repositories\pi_project\mango-pi\venv\lib\site-packages (4.8.1.78)
+Collecting Pillow==9.5.0
+  Downloading Pillow-9.5.0-cp310-cp310-win_amd64.whl.metadata (9.7 kB)
+Collecting scikit-learn==1.2.2
+  Downloading scikit_learn-1.2.2-cp310-cp310-win_amd64.whl.metadata (11 kB)
+Collecting scipy==1.10.1
+  Downloading scipy-1.10.1-cp310-cp310-win_amd64.whl.metadata (58 kB)
+Requirement already satisfied: Flask==3.0.0 in d:\data_science\my_projects\origin\git_repositories\pi_project\mango-pi\venv\lib\site-packages (3.0.0)
+Collecting Werkzeug==3.0.1
+  Downloading werkzeug-3.0.1-py3-none-any.whl.metadata (4.1 kB)
+Collecting Jinja2==3.1.2
+  Downloading Jinja2-3.1.2-py3-none-any.whl.metadata (3.5 kB)
